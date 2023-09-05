@@ -1,0 +1,222 @@
+.login{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+    font-family:'Times New Roman', Times, serif;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* background-color: aqua; */
+    
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: solid;
+    opacity: 0.8;
+    background-color: #333;
+    box-shadow: 0px 0px 10px #000000;
+    width: 600px;
+    height: 350px;
+}
+form{
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.logincred{
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0px 0px 10px #000000;
+    font-size: 16px;
+}
+  
+.but{
+    background-color: #3ca123;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.login-font-color
+{
+    color:rgb(248, 138, 28);
+    font-size: 45px;
+}
+.login-phrase
+{
+        color:rgb(122, 123, 123);
+        font-size: 25px;
+}
+
+.loginfont
+{
+    color:rgb(7, 213, 213);
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #ef3333;
+}
+
+span {
+  position: absolute;
+  display: block;
+  width: calc(6.25vw - 2px);
+  height: calc(6.25vw - 2px);
+  background: #181818;
+  z-index: 2;
+  transition: 1.5s;
+}
+
+span:hover {
+  background: #0f0;
+  transition: 0s;
+}
+
+.signin {
+  position: absolute;
+  width: 400px;
+  background: #222;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.content h2 {
+  font-size: 2em;
+  color: #0f0;
+  text-transform: uppercase;
+}
+
+.content .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form .inputBox {
+  position: relative;
+  width: 100%;
+}
+
+.signin .content .form .inputBox input {
+  position: relative;
+  width: 100%;
+  background: #333;
+  border: none;
+  outline: none;
+  padding: 25px 10px 7.5px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.signin .content .form .inputBox i {
+  position: absolute;
+  left: 0;
+  padding: 15px 10px;
+  font-style: normal;
+  color: #aaa;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.signin .content .form .inputBox input:focus ~ i,
+.signin .content .form .inputBox input:valid ~ i {
+  transform: translateY(-7.5px);
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.signin .content .form .links {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signin .content .form .links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.signin .content .form .links a:nth-child(2) {
+  color: #0f0;
+  font-weight: 600;
+}
+
+.signin .content .form .inputBox input[type="submit"] {
+  padding: 10px;
+  background: #0f0;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.35em;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+  span {
+    width: calc(10vw - 2px);
+    height: calc(10vw - 2px);
+  }
+}
+
+@media (max-width: 600px) {
+  span {
+    width: calc(20vw - 2px);
+    height: calc(20vw - 2px);
+  }
+} */
+

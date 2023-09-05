@@ -1,0 +1,19 @@
+.inventory{
+    position: absolute;
+    height: 92vh;
+    margin-top: 8vh;
+    width: 100%;
+    background-color:#F0F0F0;
+    color:rgb(102, 100, 100);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.properties{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-style: italic;
+}
+.Head-title
+{
+    color:#E7473C;
+}

@@ -1,0 +1,34 @@
+.about{
+    
+        position: absolute;
+        height: 92vh;
+        margin-top: 8vh;
+        width: 100%;
+        background-color:#F0F0F0;
+        background-image: url('https://res.cloudinary.com/highereducation/image/upload/v1533591754/TheBestColleges.org/featured_libraries.jpg');
+        height: 100%;
+        width: 100%;
+        background-size:contain
+        
+}
+.image-size
+{
+width:90px;
+height:100px;
+}
+
+.about-container
+{
+        background-color: rgba(240, 248, 255, 0.548);
+        height: 60%;
+        width: 70%;
+        padding: 20px;
+        margin-left: 15%;
+        margin-top: 8%;
+        border-radius: 3%;
+}
+
+.about-name
+{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}

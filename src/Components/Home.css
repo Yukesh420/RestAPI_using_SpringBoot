@@ -1,0 +1,95 @@
+
+.home{
+    position: absolute;
+    background-color: #F0F0F0;
+    width: 100%;
+    margin-top: 8vh;
+    z-index: 0;
+}
+.home-container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+.sidebar{
+    width: 20%;
+    background-color: #E7473C;
+    color:#F0F0F0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    /* min-height: 92vh; */
+}
+.main-content{
+    width: 80%;
+    margin-left: auto;
+    min-height: 92vh;
+    /* background-color: #11a0b3; */
+
+}
+.btn{
+    border-style: solid;
+    border-color: green;
+    padding: 10px;
+    background-color: rgb(130, 210, 130);
+    border-radius: 10px;
+}
+.search{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'SFPro';
+    padding: 10px 0 10px 0;
+}
+.searchButton{
+    padding: 11px;
+    border: 1px solid #def3f6;
+    background: #000000b9;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.searchBox{
+    padding: 10px;
+    width: 30%;
+    border: 3px solid #000000a3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+    outline: 0;
+    font-family: 'SFPro';
+    padding-left: 10px;
+}
+.searchBox:focus{
+    border-color: #0d0d0df0;
+    box-shadow: 0 5px 5px rgba(0,0,0,9);
+}
+.datagrid img{
+    width: 150px;
+    height: 220px;
+}
+.datagrid{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: auto;
+    gap: 5em;
+}
+
+.bookName
+{
+    color:rgb(81, 79, 79);
+}
+
+.bookDetails
+{
+    color:rgb(81, 79, 79);
+    font-style: italic;
+}
+#bookdiv
+{
+    border: 1px solid black;
+    padding: 30px;
+    box-shadow: 5px 1px 6px rgba(0, 0, 0, 0.9);
+}
